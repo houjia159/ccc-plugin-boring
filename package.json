@@ -1,0 +1,19 @@
+{
+    "name": "next-boring",
+    "version": "1.0.0",
+    "description": "上班不要用的插件",
+    "author": "Next",
+    "main": "main.js",
+    "main-menu": {
+      "有点无聊/知乎": {
+        "message": "next-boring:open-zhihu"
+      }
+    },
+    "panel": {
+        "main": "zhihu/index.html",
+        "type": "simple",
+        "title": "知乎",
+        "width": 1000,
+        "height": 800
+      }
+  }
